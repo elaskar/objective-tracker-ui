@@ -1,0 +1,22 @@
+.daily-objectives {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: flex-start;
+  padding: 0 8px;
+
+  .objectives-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    .objectives-content__list {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Read a book", "achieved": false },
+  { "id": 2, "name": "Program", "achieved": false },
+  { "id": 3, "name": "No smoking", "achieved": false },
+  { "id": 4, "name": "Exercise", "achieved": false }
+]

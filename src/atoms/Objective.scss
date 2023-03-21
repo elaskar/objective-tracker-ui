@@ -1,0 +1,44 @@
+.objective-card {
+  background-color: grey;
+  &.not-achieved {
+    box-shadow: 5px 5px 0 #000;
+  }
+
+  &.achieved {
+    box-shadow: 5px 5px 0 limegreen;
+  }
+
+  position: relative;
+
+  @media screen and (min-width: 960px) {
+    width: 280px;
+    height: 280px;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 140px;
+    height: 140px;
+  }
+  .objective-card__image {
+    @media screen and (min-width: 960px) {
+      width: 280px;
+      height: 280px;
+    }
+
+    @media screen and (max-width: 960px) {
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  .objective-card__title {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: fit-content;
+    font-weight: bold;
+  }
+}
